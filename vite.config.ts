@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+    base: 'https://github.com/mahesh2-lab/task/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
